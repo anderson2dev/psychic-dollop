@@ -1,0 +1,14 @@
+# Comando para invocar função via aws usando sls
+sls invoke -f <\nome da função>
+
+# Comando para invocar função localmente
+sls invoke local -f <\nome da função>
+
+# flag de log 
+-l
+
+# Comando para efetuar o deploy na aws
+sls deploy
+
+# Verificação de logs
+sls logs -f hello --tail
